@@ -1,0 +1,56 @@
+{
+  "logit": {
+    "B_CONST": -0.7292475679860815,
+    "B_COSTGAP": -0.08779436261875725,
+    "B_PRIOR": 1.4943030475870915,
+    "PRIOR_HP_RATE": 0.2318840579710145,
+    "n_obs": 69,
+    "n_events": 12
+  },
+  "totals": {
+    "TOTAL_CT_SF": 882000,
+    "CAMA_N": 20000,
+    "SCALE": 44.1
+  },
+  "model": {
+    "HP_LIFETIME": 20,
+    "P_CHOOSE_MAX": 0.85,
+    "P_REPLACE": {
+      "Oil": 0.464,
+      "Gas": 0.293,
+      "Propane": 0.18
+    }
+  },
+  "co2": {
+    "CO2_BY_FUEL": {
+      "Oil": 4.59,
+      "Gas": 1.43,
+      "Propane": 3.73
+    },
+    "CO2_BY_FUEL_SYS": {
+      "Oil|Boiler": 5.25,
+      "Oil|Furnace": 4.05,
+      "Gas|Boiler": 1.79,
+      "Gas|Furnace": 1.1,
+      "Propane|Boiler": 4.27,
+      "Propane|Furnace": 3.29
+    }
+  },
+  "hear": {
+    "Oil": {
+      "low": 0.306,
+      "mod": 0.343,
+      "inel": 0.351
+    },
+    "Propane": {
+      "low": 0.306,
+      "mod": 0.343,
+      "inel": 0.351
+    },
+    "Gas": {
+      "low": 0.21,
+      "mod": 0.222,
+      "inel": 0.568
+    }
+  }
+}
